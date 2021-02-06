@@ -7,7 +7,8 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
-
+# https://github.com/coolsnowwolf/lede
+# https://github.com/xyl94k/lede
 name: Build OpenWrt
 
 on:
@@ -20,7 +21,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/xyl94k/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
